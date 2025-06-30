@@ -63,6 +63,7 @@ Extend the booking logic as needed.
 ## 🧩 Screenshots
 Homepage (Upcoming)	Movie Card
 
+
 📷 Add your real screenshots in uploads/screens and link them here.
 
   Demo link: https://ticketmaster.html-5.me
