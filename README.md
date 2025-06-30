@@ -39,19 +39,19 @@ Welcome to **Ticket Master**, a user-friendly, modern, responsive movie ticket b
 ## 📂 Folder Structure
 
 /ticket-master
-├── /admin # Admin dashboard & management
-├── /includes # Header, footer, sidebar, DB connection
-├── /uploads # Uploaded movie images & fallback images
-├── carousel.php # Homepage carousel
-├── connection.php # Database connection config
-├── index.php # Homepage (Upcoming & Released Movies)
-├── movie_details.php # Single movie page
-└── README.md # This file!
+- ├── /admin # Admin dashboard & management
+- ├── /includes # Header, footer, sidebar, DB connection
+- ├── /uploads # Uploaded movie images & fallback images
+- ├── carousel.php # Homepage carousel
+- ├── connection.php # Database connection config
+- ├── index.php # Homepage (Upcoming & Released Movies)
+- ├── movie_details.php # Single movie page
+- └── README.md # This file!
 
 
 ---
 
-💻 Usage
+## 💻 Usage
 Visit the homepage to see Upcoming & Released movies.
 
 Click any movie card for details.
@@ -61,20 +61,22 @@ Extend the booking logic as needed.
 Use the /admin panel to add/edit/delete movies, manage theaters, and view bookings.
 ---
 
-🧩 Screenshots
+## 🧩 Screenshots
 Homepage (Upcoming)	Movie Card
 
 📷 Add your real screenshots in uploads/screens and link them here.
 
 -----
 
-📝 License
+## 📝 License
 This project is free for learning & personal use.
 Please don’t use it for commercial purposes without permission.
 
 ----
 
-👨‍💻 Author
-Created by [YOUR NAME].
+## 👨‍💻 Author
+Created by [Samin kadivar].
+
 Connect with me on LinkedIn.
+
 Feel free to reach out for any help or collaboration!
