@@ -59,9 +59,11 @@ Click any movie card for details.
 Extend the booking logic as needed.
 
 ---
-
 ## 🧩 Screenshots
-Homepage (Upcoming)	Movie Card
+
+| Homepage |
+|----------|
+| ![Homepage](uploads/screens/homepage.png) |
 
 
 📷 Add your real screenshots in uploads/screens and link them here.
