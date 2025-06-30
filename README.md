@@ -58,6 +58,7 @@ Welcome to **Ticket Master**, a user-friendly, modern, responsive movie ticket b
 ```bash
 git clone https://github.com/YOUR_USERNAME/ticket-master.git
 cd ticket-master
+===
 
 Step 2: 🗃️ Import the MySQL Database
 
