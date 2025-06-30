@@ -1,0 +1,243 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #001F3F; /* Dark blue sidebar */
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+/* Sidebar Header */
+.sidebar-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+/* Sidebar Menu */
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu li {
+    padding: 1px 20px;
+    text-align: left;
+}
+
+.sidebar-menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.sidebar-menu a:hover {
+    background-color: #0074D9; /* Lighter blue hover effect */
+}
+
+/* Logout Button */
+.logout {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dc3545; /* Red */
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+.logout:hover {
+    background-color: #c82333; /* Darker red */
+}
+
+/* Content Section */
+.content, .dashboard {
+    flex: 1;
+    margin-left: 270px;
+    padding: 40px;
+    background-color: #f8f9fa;
+    width: calc(100% - 270px);
+}
+
+/* Dashboard Heading */
+h2 {
+    color: #001F3F;
+    font-weight: bold;
+}
+
+/* Dashboard Cards */
+.dashboard-card {
+    background: #003366; /* Dark Blue */
+    color: white;
+    border: none;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    background: #0056b3; /* Lighter Blue */
+}
+
+/* Card Title & Text */
+.dashboard-card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dashboard-card .card-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Table Styling */
+.table-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #001F3F; /* Teal header */
+    color: white;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #001F3F; /* Dark blue */
+    color: white;
+    text-align: center;
+}
+
+/* Alternate Row Coloring */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover Effect */
+tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #001F3F;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #001F3F;
+}
+
+.btn-warning:hover { background-color: #e0a800; }
+.btn-danger:hover { background-color: #c82333; }
+
+/* Alerts */
+.alert {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .dashboard, .content {
+        margin-left: 220px;
+        padding: 30px;
+    }
+    table {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+    .dashboard, .content {
+        margin-left: 210px;
+        padding: 20px;
+    }
+    table {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+    }
+    .dashboard, .content {
+        margin-left: 0;
+        padding: 15px;
+    }
+    table {
+        font-size: 12px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .main-container, .main-container * {
+        visibility: visible;
+    }
+    .main-container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+}

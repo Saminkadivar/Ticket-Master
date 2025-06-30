@@ -1,0 +1,173 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;  /* Use a clean and simple font for the entire page */
+    background-color: #f4f7fa;  /* Light gray background color */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;  /* Fixed width for the sidebar */
+    min-height: 100vh;  /* Sidebar should take up the full height of the page */
+    background-color: #001F3F;  /* Dark background for the sidebar */
+    padding: 20px;  /* Padding for spacing within the sidebar */
+    color: #fff;  /* White text color for the sidebar */
+    position: fixed;  /* Fixed sidebar on the left */
+}
+
+.sidebar h3 {
+    color: #fff;  /* White color for the title */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;  /* Add space between the menu items */
+}
+
+.sidebar ul li a {
+    color: #fff;  /* White color for the links */
+    text-decoration: none;
+    font-size: 16px;  /* Font size for better readability */
+    display: block;  /* Make the link block-level for full-width clickable area */
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #3aafa9;  /* Change background color on hover */
+}
+
+/* Main Content Styling */
+.main-content {
+    margin-left: 250px;  /* Adjust content to the right due to the sidebar */
+    padding: 30px;
+    background-color: #f8f9fa;  /* Light background color for the content area */
+    min-height: 100vh;  /* Full height to match the sidebar */
+}
+
+h2, h3 {
+    color: #333;  /* Dark color for headings */
+}
+
+/* Dashboard Cards Styling */
+.dashboard-card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Soft shadow for the cards */
+    margin-bottom: 20px;  /* Add space between cards */
+    border-radius: 10px;  /* Rounded corners for the cards */
+    background-color: #fff;  /* White background for the cards */
+}
+
+.dashboard-card .card-body {
+    padding: 30px;  /* Large padding for a spacious card */
+    text-align: center;
+}
+
+.dashboard-card .card-title {
+    font-size: 24px;  /* Larger font for the card title */
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.dashboard-card .card-text {
+    font-size: 32px;  /* Large font for the numbers */
+    color: #3aafa9;  /* Teal color for statistics */
+    font-weight: bold;
+}
+
+/* Quick Links Button Styling */
+.btn-primary {
+    background-color: #3aafa9;  /* Primary button color */
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2e8b8b;  /* Darker teal for hover effect */
+}
+
+/* Table Styling */
+table {
+    width: 100%;  /* Table takes up full width */
+    border-collapse: collapse;  /* Collapse borders for neatness */
+    background-color: #fff;  /* White background for the table */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Soft shadow around the table */
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 12px;  /* Padding for table cells */
+    text-align: left;  /* Align text to the left */
+    border-bottom: 1px solid #ddd;  /* Light border between rows */
+}
+
+th {
+    background-color: #3aafa9;  /* Teal background for table headers */
+    color: white;  /* White text for table headers */
+}
+
+tr:hover {
+    background-color: #f1f1f1;  /* Light gray background on row hover */
+}
+
+/* Action Buttons in Table */
+.actions a {
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.actions .edit {
+    background-color: #fbc02d;  /* Yellow background for the edit button */
+}
+
+.actions .delete {
+    background-color: #d32f2f;  /* Red background for the delete button */
+}
+
+.actions a:hover {
+    opacity: 0.8;  /* Slight opacity change on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;  /* Sidebar takes full width on small screens */
+        position: relative;  /* Sidebar becomes relative */
+        padding: 10px;
+    }
+
+    .main-content {
+        margin-left: 0;  /* Remove left margin on small screens */
+    }
+
+    .dashboard-card .card-body {
+        padding: 20px;  /* Smaller padding on mobile */
+    }
+
+    .btn-primary {
+        padding: 10px;  /* Slightly smaller buttons on mobile */
+    }
+
+    table {
+        font-size: 14px;  /* Smaller font size for table on mobile */
+    }
+}
+

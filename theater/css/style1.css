@@ -1,0 +1,230 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #001F3F; /* Dark blue sidebar */
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+/* Sidebar Header */
+.sidebar-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+/* Sidebar Menu */
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu li {
+    padding: 1px 20px;
+    text-align: left;
+}
+
+.sidebar-menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.sidebar-menu a:hover {
+    background-color: #0074D9; /* Lighter blue hover effect */
+}
+
+/* Submenu */
+.submenu-items {
+    list-style-type: none;
+    padding-left: 20px;
+    display: none;
+}
+
+.submenu:hover .submenu-items {
+    display: block;
+}
+
+/* Content Section */
+.content {
+    flex: 1;
+    margin-left: 270px; /* Ensures content does not overlap sidebar */
+    padding: 40px;
+    background-color: #f8f9fa;
+    width: calc(100% - 270px);
+}
+
+/* Dashboard Styling */
+.dashboard {
+    flex: 1;
+    margin-left: 270px;
+    padding: 40px;
+    background-color: #f4f4f4;
+    width: calc(100% - 270px);
+}
+
+/* Card Styling */
+.card {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+.table-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+.table-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Table Header Styling */
+.table thead {
+    background-color: #001F3F; /* Dark Blue Header */
+    color: white;
+}
+
+.table th {
+    background-color: #001F3F; /* Ensuring uniform dark blue */
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+/* Table Cells */
+.table th, .table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Alternate Row Coloring */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover Effect */
+tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+
+/* Button Styling */
+.btn-primary { background-color: #001F3F; border: none; }
+.btn-primary:hover { background-color: #001F3F; }
+.btn-warning:hover { background-color: #e0a800; }
+.btn-danger:hover { background-color: #c82333; }
+
+/* Alerts */
+.alert {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .dashboard {
+        margin-left: 220px;
+        padding: 30px;
+    }
+    table {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+    .dashboard {
+        margin-left: 210px;
+        padding: 20px;
+    }
+    .content {
+        margin-left: 210px;
+    }
+    table {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+    }
+    .dashboard, .content {
+        margin-left: 0;
+        padding: 15px;
+    }
+    table {
+        font-size: 12px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .main-container, .main-container * {
+        visibility: visible;
+    }
+    .main-container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+}

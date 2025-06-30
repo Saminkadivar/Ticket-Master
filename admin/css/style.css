@@ -1,0 +1,186 @@
+
+
+
+
+
+
+
+
+
+/* Premium Luxury Theme for Admin Panel */
+body {
+    background-color: #121212; /* Dark Background */
+    color: #F5F5F5; /* Light Text */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background-color: #001F3F; /* Deep Blue */
+    padding: 20px;
+    color: #FFD700; /* Gold Text */
+    position: fixed;
+}
+
+.sidebar h3 {
+    color: #FFD700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: #FFD700; /* Gold */
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #F5F5F5;
+    color: #001F3F;
+}
+
+/* Main Content Styling */
+.main-content {
+    margin-left: 250px;
+    padding: 30px;
+    background-color: #1A1A1A; /* Darker Grey */
+    min-height: 100vh;
+}
+
+h2, h3 {
+    color: #FFD700;
+}
+
+/* Dashboard Cards Styling */
+.dashboard-card {
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3); /* Gold Glow */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #1A1A1A;
+    border: 1px solid #FFD700;
+}
+
+.dashboard-card .card-body {
+    padding: 30px;
+    text-align: center;
+}
+
+.dashboard-card .card-title {
+    font-size: 24px;
+    color: #FFD700;
+    margin-bottom: 15px;
+}
+
+.dashboard-card .card-text {
+    font-size: 32px;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #FFD700; /* Gold */
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: #001F3F;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #F5F5F5;
+    color: #001F3F;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1A1A1A;
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3);
+    border-radius: 10px;
+    color: #F5F5F5;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #FFD700;
+}
+
+th {
+    background-color: #001F3F;
+    color: #FFD700;
+}
+
+tr:hover {
+    background-color: #222;
+}
+
+/* Action Buttons in Table */
+.actions a {
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.actions .edit {
+    background-color: #fbc02d;
+}
+
+.actions .delete {
+    background-color: #d32f2f;
+}
+
+.actions a:hover {
+    opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+        padding: 10px;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+
+    .dashboard-card .card-body {
+        padding: 20px;
+    }
+
+    .btn-primary {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}

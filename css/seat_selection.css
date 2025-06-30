@@ -1,0 +1,85 @@
+/* General Styling */
+body {
+    background-color: rgb(242, 242, 242);
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+/* Header */
+h2 {
+    text-align: center;
+    color: #3aafa9;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Date Selection Buttons */
+.date-btn {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.date-btn:hover, .date-btn:focus {
+    background-color: #3aafa9;
+    color: white;
+    border-color: #3aafa9;
+}
+
+/* Showtime Container */
+.showtime-container {
+    background: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Theater Name */
+.showtime-container h4 {
+    color: #2b7a78;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Theater Location */
+.showtime-container p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Screen Title */
+.showtime-container h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Showtime Buttons */
+.showtime-btn {
+    margin: 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: 0.3s;
+    background-color: white;
+}
+
+.showtime-btn:hover, .showtime-btn:focus {
+    background-color: #3aafa9;
+    color: white;
+    border-color: #3aafa9;
+}
+
+/* No showtimes message */
+.text-danger {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    margin-top: 20px;
+}

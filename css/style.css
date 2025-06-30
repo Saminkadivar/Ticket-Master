@@ -1,0 +1,161 @@
+/* Premium Luxury Theme Styling */
+body {
+    background-color: #121212; /* Dark Grey Background */
+    color: #F5F5F5; /* Light White Text */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+.navbar-custom {
+    background-color: #001F3F; /* Deep Blue */
+}
+
+.navbar-custom a {
+    color: #FFD700; /* Gold Text */
+}
+
+.navbar-custom a:hover {
+    color: #F5F5F5; /* Light White Text on hover */
+}
+
+/* Navbar Search Bar */
+.navbar .form-control {
+    border-radius: 30px; /* Rounded corners for search bar */
+    padding-left: 15px; /* Space on left side */
+    background-color: #001F3F; /* Dark background for input */
+    color: #ce0e0e; /* Light text color */
+    border: 1px solid #FFD700; /* Gold border */
+}
+
+.navbar .form-control:focus {
+    border-color: #FFD700; /* Gold border on focus */
+    background-color: #001F3F; /* Dark background on focus */
+    color: #FFD700; /* Gold text on focus */
+}
+
+/* Navbar Links */
+.navbar-nav .nav-item .nav-link {
+    color: #FFD700; /* Gold text */
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #F5F5F5; /* Light White Text on hover */
+}
+
+/* Active Navbar Link */
+.navbar-nav .nav-item .nav-link.active {
+    color: #F5F5F5; /* Active link color */
+}
+
+/* Navbar Logo */
+.navbar-brand img {
+    height: 40px; /* Logo size */
+}
+
+/* Make navbar sticky to the top */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar .form-control {
+        max-width: 300px;
+    }
+}
+
+
+
+.mallname {
+    font-size: 9pt;
+    text-overflow: ellipsis;
+}
+.light-grey-text {
+    color: #999;
+}
+.small-text {
+    font-size: 10pt;
+}
+.xsmall-text {
+    font-size: 9pt;
+}
+.pointer {
+    cursor: pointer;
+}
+.showmobile {
+    display: none !important;
+}
+.back-logo {
+    font-size: 20pt;
+    color: #fff;
+    text-align: center;
+}
+/* Navbar style end */
+header {
+    background-color: #f3f3f3;
+    padding: 7px 30px;
+}
+.timing-select-button {
+    background-color: #fff;
+    color: #2dc492;
+    border: 1px solid #2dc492;
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+.timing-select-button.active {
+    background-color: #6e1263;
+    color: #fff;
+}
+#ticket-date {
+    margin-bottom: 5px;
+}
+
+/* Content */
+.content {
+    padding: 30px 140px;
+    font-size: 10pt;
+}
+.row {
+    padding: 2px;
+}
+.seat {
+    width: 10px !important;
+    height: 10px !important;
+    border: 1px solid #201057;
+    border-radius: 26%;
+    color: #666;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+}
+.seat.selected {
+    background-color: #2dc492;
+    color: white;
+}
+.seat.unavailable {
+    background-color: #ddd;
+    color: #bbb;
+    cursor: not-allowed;
+}
+@media screen and (max-width: 768px) {
+    .nav-item-container:nth-child(2), .num-of-tickets {
+        display: none !important;
+    }
+    .showmobile {
+        display: block !important;
+    }
+    .showmobile.nav-item-container {
+        display: inline-block !important;
+    }
+    .content {
+        padding: 5px;
+        overflow-x: scroll;
+    }
+}
