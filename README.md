@@ -48,3 +48,56 @@ Welcome to **Ticket Master**, a user-friendly, modern, responsive movie ticket b
 ├── movie_details.php # Single movie page
 └── README.md # This file!
 
+
+---
+
+## ⚙️ Installation & Setup
+
+**Step 1:** 📥 Clone this repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/ticket-master.git
+cd ticket-master
+
+Step 2: 🗃️ Import the MySQL Database
+
+Open phpMyAdmin or your MySQL tool.
+
+Create a database called ticket_master.
+
+Import the provided .sql file if available (e.g., ticket_master.sql).
+
+Step 3: ⚙️ Configure Database Connection
+
+Open connection.php and update with your DB credentials:
+
+Step 4: 🚀 Run Locally
+
+Place the project folder in htdocs (XAMPP) or www (WAMP).
+
+Start Apache & MySQL.
+
+Visit: http://localhost/ticket-master
+
+💻 Usage
+Visit the homepage to see Upcoming & Released movies.
+
+Click any movie card for details.
+
+Extend the booking logic as needed.
+
+Use the /admin panel to add/edit/delete movies, manage theaters, and view bookings.
+
+🧩 Screenshots
+Homepage (Upcoming)	Movie Card
+
+📷 Add your real screenshots in uploads/screens and link them here.
+
+📝 License
+This project is free for learning & personal use.
+Please don’t use it for commercial purposes without permission.
+
+👨‍💻 Author
+Created by [YOUR NAME].
+Connect with me on LinkedIn.
+Feel free to reach out for any help or collaboration!
