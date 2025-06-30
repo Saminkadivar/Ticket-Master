@@ -65,9 +65,6 @@ Extend the booking logic as needed.
 |----------|
 | ![Homepage](uploads/screens/homepage.png) |
 
-
-📷 Add your real screenshots in uploads/screens and link them here.
-
   Demo link: https://ticketmaster.html-5.me
 -----
 
