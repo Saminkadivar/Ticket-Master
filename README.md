@@ -58,7 +58,6 @@ Click any movie card for details.
 
 Extend the booking logic as needed.
 
-Use the /admin panel to add/edit/delete movies, manage theaters, and view bookings.
 ---
 
 ## 🧩 Screenshots
