@@ -66,6 +66,9 @@ Extend the booking logic as needed.
 | ![Homepage](uploads/screens/homepage.png) |
 
   Demo link: https://ticketmaster.html-5.me
+
+  admin: Samin
+  Password: 123456
 -----
 
 ## 📝 License
