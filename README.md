@@ -82,8 +82,8 @@ Please don’t use it for commercial purposes without permission.
 ----
 
 ## 👨‍💻 Author
-Created by [Samin kadivar].
-
-Connect with me on LinkedIn.
+Created by Samin kadivar.
+Connect with me on [LinkedIn](https://linkedin.com/in/yourusername).
+📧 Email me: [saminkadivar1@gmail.com]( mailto:saminkadivar1@gmail.com).
 
 Feel free to reach out for any help or collaboration!
