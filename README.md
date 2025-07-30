@@ -68,11 +68,12 @@ Extend the booking logic as needed.
   Demo link: https://ticketmaster.html-5.me
 
 
-|  id       | Username                          | Password |
-| --------------------------------------------- | -------- |
-|User id    | samin                             |    123   |
-|Admin id   | samin                             |    123   |
-|Theater id | saminkadivar1@gmail.com           |    123   |
+| ID         | Username                        | Password |
+|------------|----------------------------------|----------|
+| User ID    | samin                           | 123      |
+| Admin ID   | samin                           | 123      |
+| Theater ID | saminkadivar1@gmail.com         | 123      |
+
 
 ## 📝 License
 This project is free for learning & personal use.
