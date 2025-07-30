@@ -83,7 +83,7 @@ Please don’t use it for commercial purposes without permission.
 
 ## 👨‍💻 Author
 Created by Samin kadivar.<br>
-Connect with me on [LinkedIn](https://linkedin.com/in/yourusername).<br>
+Connect with me on [LinkedIn](https://www.linkedin.com/in/samin-kadivar-991687242).<br>
 📧 Email me: [saminkadivar1@gmail.com]( mailto:saminkadivar1@gmail.com).
 
 Feel free to reach out for any help or collaboration!
